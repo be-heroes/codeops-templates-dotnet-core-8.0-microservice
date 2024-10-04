@@ -8,7 +8,7 @@
 /// </remarks>
 /// <param name="mapper">The mapper used for object mapping.</param>
 /// <param name="applicationFacade">The application facade for executing commands.</param>
-public sealed class GenericIntegrationEventConsumptionStrategy(IMapper mapper, IApplicationFacade applicationFacade) : ConsumptionStrategy(mapper, applicationFacade)
+public sealed class GenericIntegrationEventConsumptionStrategy(IMapper mapper, IApplicationFacade applicationFacade) : ConsumtionStrategy(mapper, applicationFacade)
 {
     /// <summary>
     ///     Applies the consumption strategy to the specified Kafka message.
